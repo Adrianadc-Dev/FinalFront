@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font: 16px;
+    line-height: 24px;
+
+}
+button{
+    color:white;
+    background-color: #8B48BF;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.first{
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+    margin: auto;
+    gap: 50px;
+    margin-bottom: 30px;
+
+}
+.first-img{
+    width: auto;
+ 
+}
+#tenista{
+    width: 100%; 
+} 
+.first-text{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: right;
+}
+#fraseHome{
+    font-size: 50px;  
+    line-height: 58px;
+}
+
+#second{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #3CDDF3;
+    padding: 10vw 5vw;  
+    gap: 50px;
+    justify-content: space-around;
+  
+}
+.second-div{
+    width: 95%;
+    
+}
+
+.subt{
+    font-size: 37px;
+    line-height: 45px;
+}
+#third{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 6vw;
+    gap: 50px;
+    justify-content: space-around;
+  
+}
+.fichas{
+    width: 375px;
+   
+}
+.t-ficha{
+    display: flex;
+    background-color: rgba(139, 72, 191, 0.3);
+    align-items: center;
+    margin-bottom: 10px;
+}
+.ficha-title{
+    padding-left: 10px;
+}
+.p-ficha{
+    
+}
+
+@media(min-width: 480px){
+    .first{
+        flex-direction: row;
+    }
+    .first-text{
+        width: 370px;
+    }
+   
+    #second{
+        flex-direction: row;
+        padding: 2vw 12vw;  
+
+    }
+    #third{
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0vw 15vw; 
+      
+    }
+    .t-ficha{
+        background-color: white;
+    }
+    .p-ficha{
+        padding-left: 70px;
+    }
+}
+
