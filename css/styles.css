@@ -8,7 +8,6 @@
     font-family: 'Be Vietnam Pro', sans-serif;
     font: 16px;
     line-height: 24px;
-
 }
 button{
     color:white;
@@ -30,6 +29,9 @@ button{
     display: flex;
     gap: 15px;
 } 
+#tenista{
+    max-width: 270px; 
+}  
 
 .first{
     padding: 5vw;
@@ -43,21 +45,23 @@ button{
 
 }
 .first-img{
-    width: 100%;
+    max-width: 100%;
 }
 #tenista{
     max-width: 100%; 
 } 
 .first-text{
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
     text-align: right;
+    
 }
 #fraseHome{
     font-size: 50px;  
     line-height: 58px;
-}
+} 
 #second{
     display: flex;
     flex-direction: column;
@@ -69,10 +73,8 @@ button{
   
 }
 .second-div{
-    width: 95%;
-    
+    width: 95%;   
 }
-
 .subt{
     font-size: 37px;
     line-height: 45px;
@@ -97,7 +99,6 @@ button{
     margin-bottom: 10px;
     border-radius: 50px 0px 0px 50px;
 } 
-
 .ficha-title{
     padding-left: 10px;
 }
@@ -114,7 +115,6 @@ button{
     display: flex;
     flex-direction: column;
     margin: 15px;
-
 }
 #t_fourth{
     padding-top: 10vw;
@@ -132,7 +132,6 @@ button{
 .t-card{
     position: relative;
     bottom: 25px;
-
 }
 #b-more{
     padding-right: 50px;
@@ -205,6 +204,14 @@ button{
     text-align: center;
     padding-bottom: 30px;
 } 
+button:hover{
+    background-color:#8b48bf71;
+}
+.card:hover{
+    background-color: #b9b9c181;
+}
+
+
 @media(min-width: 480px){
     
     .first-text{
