@@ -16,24 +16,37 @@ button{
     padding: 10px 20px;
     border-radius: 50px;
 }
+.container-header{
+    padding: 30px 40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sup{
+    display: none;
+}
+#menu_nav{
+    display: flex;
+    gap: 15px;
+}
 
 .first{
-    padding: 5vw;
+    padding: 6vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-  
+    align-items: center;
     margin: auto;
     gap: 50px;
     margin-bottom: 30px;
 
 }
 .first-img{
-    width: auto;
- 
+    width: 100%;
 }
 #tenista{
-    width: 100%; 
+    max-width: 100%; 
 } 
 .first-text{
     width: auto;
@@ -69,52 +82,163 @@ button{
 #third{
     display: flex;
     flex-direction: column; 
-    margin-top: 6vw;
+    padding-top: 6vw;
     gap: 50px;
     justify-content: space-around;
+    background-color: #FAFAFA;
   
 }
 .fichas{
-    width: 375px;
-   
+    width: 375px; 
+    padding-left: 20px;
 }
 .t-ficha{
     display: flex;
     background-color: rgba(139, 72, 191, 0.3);
     align-items: center;
     margin-bottom: 10px;
-}
+    border-radius: 50px 0px 0px 50px;
+} 
+
 .ficha-title{
     padding-left: 10px;
 }
 .p-ficha{
-    
+    background-color: rgb (249, 249, 249);
+    padding-right: 15px;
 }
+#fourth{
+    text-align: center;
+    padding: 10px;
+    background-color:  #FAFAFA;
+}
+.contenedor-card{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
 
+}
+#t_fourth{
+    padding-top: 10vw;
+}
+.card{
+    background-color: #b9b9c12b;
+    padding: 10px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+.img-card{
+    position: relative;
+    bottom: 40px;
+}
+.t-card{
+    position: relative;
+    bottom: 25px;
+
+}
+#b-more{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#b_card{
+    padding-bottom: 8vw;
+}
+#five{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #3CDDF3;
+    padding: 30px 40px;
+    text-align: center;
+
+}
+#t-five{
+    padding-bottom: 40px;
+}
+#go{
+    background-color:#1E1E26 ;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 @media(min-width: 480px){
-    .first{
-        flex-direction: row;
-    }
+    
     .first-text{
         width: 370px;
     }
+    .first-img{
+        width: 50%;
+    }
+    #tenista{
+        max-width: 480px; 
+    } 
    
     #second{
         flex-direction: row;
         padding: 2vw 12vw;  
+        background-color: #8B48BF;
 
     }
     #third{
         flex-direction: row;
         flex-wrap: wrap;
-        padding: 0vw 15vw; 
+        padding: 5vw 15vw 11vw 15vw;
       
     }
+    #fourth{
+        text-align: center;
+        padding-top: 0vw;
+    }
+    #t_fourth{
+        padding-top: 0vw;
+    }
+    .fichas{
+        width: 500px;
+    }
     .t-ficha{
-        background-color: white;
+        background-color:#FAFAFA;
     }
     .p-ficha{
         padding-left: 70px;
     }
+    .contenedor-card{
+        flex-direction: row;
+        padding: 5vw 5vw;
+    }
+    #five{
+        flex-direction: row;
+        background-color: #8B48BF;
+        align-items: center;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    #go{
+        color: #8B48BF;
+        background-color: white;
+        
+    }
+    #bsub{
+        position: relative; 
+        left: 40%;
+    }
+    #t-five{
+        width: 50%;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    #b-five{
+        width: 50%; 
+    }
 }
 
+@media(min-width: 1000px){
+    .sup{
+        display: inline-block;
+    }
+    #menu_hambur{
+        display: none;
+    }
+    .first{
+        flex-direction: row;
+    }
+
+}

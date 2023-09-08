@@ -8,47 +8,59 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <img src="./img/logo.svg" alt="logo">
-            <button >Contact</button>
-            <img src="./img/icon-hamburger.svg" alt="Icono menu">
-            <nav>
-                <ul type="none">
-                    <li>Sport</li>
-                    <li>Products</li>
-                    <li>About Us</li>
-                    <li>Trainning</li>
-                    <li>Community</li>
-                </ul>
-            </nav>
-           
+        <div class="container-header">
+            <div>
+                <img id="menu" src="./img/logo.svg" alt="logo">
+            </div>
+            <div class="sup">
+                <nav>
+                    <ul type="none" id="menu_nav">
+                        <li>Sport</li>
+                        <li>Products</li>
+                        <li>About Us</li>
+                        <li>Trainning</li>
+                        <li>Community</li>
+                    </ul>
+                </nav>
+            </div>          
+            <div id="menu_hambur">
+                <img src="./img/icon-hamburger.svg" alt="Icono menu">
+            </div>
+            <div class="sup">
+                <button>Contact</button>
+            </div>       
         </div>
     </header>
-    <div class="first">
-        <div class="first-img">
-            <img id="tenista" src="./img/padel-intro.png" alt="Tenista">
-        </div>
-        <div class="first-text">
-            <div>
-                <h3 id="fraseHome">LIVE: follow the Telcel Huawei Mexico Open 2022 for free</h3>     
+    <section>
+        <div class="first">
+            <div class="first-img">
+                <img id="tenista" src="./img/padel-intro.png" alt="Tenista">
             </div>
-            <div>
-                <p id="first-p">The final Open of the 2022 World Padel Tour season is underway, don't miss out on any of the action!</p>
+            <div class="first-text">
+                <div>
+                    <h3 id="fraseHome">LIVE: follow the Telcel Huawei Mexico Open 2022 for free</h3>     
+                </div>
+                <div>
+                    <p id="first-p">The final Open of the 2022 World Padel Tour season is underway, don't miss out on any of the action!</p>
+                </div>
+                <div>
+                    <button>Contact</button>
+                </div>     
             </div>
-            <div>
-                <button>Contact</button>
-            </div>     
         </div>
-    </div>
+    </section>
     
-    <div id="second">
-        <div class="second-div">
-            <h3 class="subt">What's different between pros?</h3>
+    <section>
+        <div id="second">
+            <div class="second-div">
+                <h3 class="subt">What's different between pros?</h3>
+            </div>
+            <div class="second-div">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusamus saepe, cumque mollitia rem at quod asperiores dignissimos placeat corrupti dolor quos sit distinctio nisi itaque aut magnam possimus dolore! </p>
+            </div>
         </div>
-        <div class="second-div">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed accusamus saepe, cumque mollitia rem at quod asperiores dignissimos placeat corrupti dolor quos sit distinctio nisi itaque aut magnam possimus dolore! </p>
-        </div>
-    </div>
+    </section>
+   <section>
     <div id="third">
         <div class="fichas"> 
             <div class="t-ficha"> 
@@ -75,34 +87,62 @@
             <p class="p-ficha">Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.</p>
         </div>
     </div>
-    <div>
-        <h3 class="subt">Best of the mounth</h3>
-        <div>
-            <img src="./img/avatar-sanyo.png" alt="Sanyo">
-            <h4>Sanyo</h4>
-            <p Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+   </section>
+   <section>
+        <div id="fourth">
+            <div id="t_fourth">
+                <h3 class="subt">Best of the mounth</h3>
+            </div>
+            
+            <div class="contenedor-card">
+                <div class="card">
+                    <div class="img-card">
+                        <img src="./img/avatar-sanyo.png" alt="Sanyo">
+                    </div>
+                    <div class="text-card">
+                        <h4 class="t-card">Sanyo</h4>
+                        <p>fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </div>  
+                </div>
+                <div class="card" >
+                    <div class="img-card">
+                        <img src="./img/avatar.lebron.png" alt="Lebron">
+                    </div>
+                    <div class="text-card">
+                        <h4 class="t-card">Lebron</h4>
+                        <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </div>          
+                </div>
+                <div class="card">
+                    <div class="img-card">
+                        <img src="./img/avatar-navarro.png" alt="Navarro">
+                    </div>
+                    <div class="text-card">
+                        <h4 class="t-card">Navarro</h4>
+                        <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </div>      
+                </div>
+            </div>
+            <div id="b_card">
+                <button id="b-more">More</button>
+            </div>
+            
         </div>
-        <div>
-            <img src="./img/avatar.lebron.png" alt="Lebron">
-            <h4>Lebron</h4>
-            <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+   </section>    
+    <section>
+        <div id="five">
+            <div id="t-five">
+                <h3 class="subt">Get to know the best teams of the year</h3>
+            </div>
+            <div id="b-five">
+                <div id="bsub">
+                    <button id="go">Go for it</button>
+                </div>
+                
+            </div>
         </div>
-        <div>
-            <img src="./img/avatar-navarro.png" alt="Navarro">
-            <h4>Navarro</h4>
-            <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-        </div>
-        <button>More</button>
-    </div>
-    <div>
-        <div>
-            <h3 class="subt">Get to know the best teams of the year</h3>
-        </div>
-        <div>
-            <button>Go for it</button>
-        </div>
-    </div>
 
+    </section>
     <footer>
         <div class="buscador">
             <button></button>
